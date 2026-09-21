@@ -1,0 +1,286 @@
+{
+  "ask-matt": {
+    "label": "推荐合适技能",
+    "short_description": "根据任务推荐技能或工作流程"
+  },
+  "code-review": {
+    "label": "审查代码变更",
+    "short_description": "按项目规范和需求审查代码差异"
+  },
+  "codebase-design": {
+    "label": "设计代码模块",
+    "short_description": "用深模块思路改进接口与代码结构"
+  },
+  "diagnosing-bugs": {
+    "label": "诊断疑难故障",
+    "short_description": "定位复杂错误与性能退化"
+  },
+  "domain-modeling": {
+    "label": "梳理领域模型",
+    "short_description": "统一术语并完善领域模型"
+  },
+  "find-skills": {
+    "label": "查找技能",
+    "short_description": "查找并安装适合任务的技能"
+  },
+  "git-guardrails-claude-code": {
+    "label": "防止危险Git操作",
+    "short_description": "用Claude Code钩子拦截危险Git命令"
+  },
+  "grill-me": {
+    "label": "追问完善方案",
+    "short_description": "通过连续提问打磨计划或设计"
+  },
+  "grill-with-docs": {
+    "label": "追问并写文档",
+    "short_description": "追问设计并同步编写决策与术语文档"
+  },
+  "grilling": {
+    "label": "压力测试想法",
+    "short_description": "逐轮提问检验计划与决策"
+  },
+  "handoff": {
+    "label": "整理交接文档",
+    "short_description": "汇总对话供下一位代理接手"
+  },
+  "implement": {
+    "label": "按规格实现",
+    "short_description": "根据规格说明或工单完成开发"
+  },
+  "improve-codebase-architecture": {
+    "label": "改进代码架构",
+    "short_description": "寻找模块设计改进机会并深入讨论"
+  },
+  "migrate-to-shoehorn": {
+    "label": "迁移测试断言",
+    "short_description": "把测试中的类型断言改为shoehorn"
+  },
+  "ponytail": {
+    "label": "极简实现",
+    "short_description": "用最少代码完成可行的开发方案"
+  },
+  "prototype": {
+    "label": "验证设计原型",
+    "short_description": "用一次性原型回答设计问题"
+  },
+  "research": {
+    "label": "查证并记录",
+    "short_description": "查阅可靠来源并将结论写入仓库"
+  },
+  "resolving-merge-conflicts": {
+    "label": "解决合并冲突",
+    "short_description": "处理Git合并或变基冲突"
+  },
+  "scaffold-exercises": {
+    "label": "生成练习骨架",
+    "short_description": "创建符合检查要求的课程练习结构"
+  },
+  "setup-matt-pocock-skills": {
+    "label": "配置工程技能",
+    "short_description": "配置工单、分类标签和领域文档"
+  },
+  "setup-pre-commit": {
+    "label": "设置提交前检查",
+    "short_description": "添加格式、类型和测试检查"
+  },
+  "tdd": {
+    "label": "测试驱动开发",
+    "short_description": "先写测试，再实现并重构"
+  },
+  "teach": {
+    "label": "引导学习",
+    "short_description": "在工作区逐步教授概念或技能"
+  },
+  "to-questionnaire": {
+    "label": "编写问卷",
+    "short_description": "把待确认问题整理成他人可答的问卷"
+  },
+  "to-spec": {
+    "label": "编写规格说明",
+    "short_description": "把讨论整理成可实施的规格"
+  },
+  "to-tickets": {
+    "label": "拆分开发工单",
+    "short_description": "将计划拆成有依赖关系的工单"
+  },
+  "triage": {
+    "label": "分类处理工单",
+    "short_description": "核验并分类问题，写出可执行说明"
+  },
+  "wait-what": {
+    "label": "请求通俗重述",
+    "short_description": "补齐上下文并简化上一条说明"
+  },
+  "wayfinder": {
+    "label": "规划大型任务",
+    "short_description": "用决策工单规划跨会话工作"
+  },
+  "wizard": {
+    "label": "生成交互向导",
+    "short_description": "引导用户完成需要手动操作的步骤"
+  },
+  "writing-for-agents": {
+    "label": "编写代理文档",
+    "short_description": "编写代理容易理解和执行的说明"
+  },
+  "template-creator": {
+    "label": "创建可复用模板",
+    "short_description": "根据参考资料制作个人模板"
+  },
+  "spreadsheets": {
+    "label": "处理电子表格",
+    "short_description": "创建、编辑和分析电子表格"
+  },
+  "excel-live-control": {
+    "label": "控制当前Excel",
+    "short_description": "操作已打开的Excel工作簿"
+  },
+  "presentations": {
+    "label": "制作演示文稿",
+    "short_description": "创建PowerPoint或Google幻灯片"
+  },
+  "pdf": {
+    "label": "处理PDF文件",
+    "short_description": "读取、制作并检查PDF文件"
+  },
+  "visualize": {
+    "label": "创建交互图表",
+    "short_description": "把想法和数据做成交互可视化"
+  },
+  "documents": {
+    "label": "创建编辑文档",
+    "short_description": "创建和编辑Word或Google文档"
+  },
+  "sites-preview-troubleshooting": {
+    "label": "排查网站预览故障",
+    "short_description": "诊断并修复Sites预览会话问题"
+  },
+  "sites-hosting": {
+    "label": "发布网站",
+    "short_description": "使用Sites发布并管理网站"
+  },
+  "computer-use": {
+    "label": "操作Windows界面",
+    "short_description": "通过图形界面控制Windows应用"
+  },
+  "imagegen": {
+    "label": "生成编辑图片",
+    "short_description": "生成或编辑照片、插画等位图素材"
+  },
+  "openai-docs": {
+    "label": "查询OpenAI文档",
+    "short_description": "查询Codex、ChatGPT及OpenAI接口的官方说明"
+  },
+  "plugin-creator": {
+    "label": "创建Codex插件",
+    "short_description": "创建插件结构并配置清单与市场条目"
+  },
+  "review-agent": {
+    "label": "审查代码缺陷",
+    "short_description": "只读审查代码变更并指出可处理的问题"
+  },
+  "skill-creator": {
+    "label": "创建Codex技能",
+    "short_description": "创建或更新Codex技能及配套资源"
+  },
+  "skill-installer": {
+    "label": "安装Codex技能",
+    "short_description": "从技能清单或GitHub仓库安装技能"
+  },
+  "control-chrome": {
+    "label": "操作Chrome浏览器",
+    "short_description": "控制Chrome中的标签页和已登录会话"
+  },
+  "control-in-app-browser": {
+    "label": "操作内置浏览器",
+    "short_description": "在内置浏览器中浏览、点击并检查网页"
+  },
+  "plugin-management": {
+    "label": "管理插件",
+    "short_description": "查找插件并管理连接与权限"
+  },
+  "sites-building": {
+    "label": "构建网站",
+    "short_description": "使用Sites创建或修改完整网站"
+  },
+  "artifact-template-three-statement-forecast": {
+    "label": "三表预测模板",
+    "short_description": "按模板创建三表财务预测表"
+  },
+  "artifact-template-team-alignment": {
+    "label": "团队对齐模板",
+    "short_description": "按模板制作团队对齐演示文稿"
+  },
+  "artifact-template-system-design": {
+    "label": "系统设计模板",
+    "short_description": "按模板编写系统设计文档"
+  },
+  "artifact-template-strategy-memorandum": {
+    "label": "战略备忘录模板",
+    "short_description": "按模板编写战略备忘录"
+  },
+  "artifact-template-simple-light-mode": {
+    "label": "简洁浅色模板",
+    "short_description": "按浅色模板制作演示文稿"
+  },
+  "artifact-template-simple-dark-mode": {
+    "label": "简洁深色模板",
+    "short_description": "按深色模板制作演示文稿"
+  },
+  "artifact-template-sales-pipeline": {
+    "label": "销售管道模板",
+    "short_description": "按模板创建销售管道电子表格"
+  },
+  "artifact-template-project-tracker": {
+    "label": "项目跟踪模板",
+    "short_description": "按模板创建项目跟踪电子表格"
+  },
+  "artifact-template-project-kickoff": {
+    "label": "项目启动模板",
+    "short_description": "按模板制作项目启动演示文稿"
+  },
+  "artifact-template-financial-budget": {
+    "label": "财务预算模板",
+    "short_description": "按模板创建财务预算电子表格"
+  },
+  "artifact-template-experiment-analysis": {
+    "label": "实验分析模板",
+    "short_description": "按模板编写实验分析文档"
+  },
+  "artifact-template-analytics-dashboard": {
+    "label": "数据分析看板模板",
+    "short_description": "按模板创建含指标和图表的电子表格"
+  },
+  "artifact-template-design-report": {
+    "label": "设计报告模板",
+    "short_description": "按模板编写设计报告"
+  },
+  "artifact-template-business-review": {
+    "label": "业务回顾模板",
+    "short_description": "按模板制作业务回顾演示文稿"
+  },
+  "artifact-template-operating-review": {
+    "label": "运营回顾模板",
+    "short_description": "按模板制作运营回顾演示文稿"
+  },
+  "artifact-template-minimal-letterhead": {
+    "label": "简洁信头模板",
+    "short_description": "按模板创建带信头的文档"
+  },
+  "artifact-template-market-trends-report": {
+    "label": "市场趋势报告模板",
+    "short_description": "按模板制作市场趋势演示文稿"
+  },
+  "artifact-template-investment-committee-memo": {
+    "label": "投资委员会备忘录模板",
+    "short_description": "按模板编写投资委员会备忘录"
+  },
+  "artifact-template-legal-memorandum": {
+    "label": "法律备忘录模板",
+    "short_description": "按模板编写法律备忘录"
+  },
+  "artifact-template-operating-calendar": {
+    "label": "运营日历模板",
+    "short_description": "按模板创建运营日历电子表格"
+  }
+}
